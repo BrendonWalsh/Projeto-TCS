@@ -1,0 +1,23 @@
+{
+  "name": "email-attachment-service",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "express": "^4.17.3",
+    "imap": "^0.8.19",
+    "mongodb": "^4.1.1",
+    "xml2js": "^0.4.23"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.1.0",
+    "@types/xml2js": "^0.4.14",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  }
+}

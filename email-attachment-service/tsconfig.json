@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es6",                   // Define a versão de JavaScript alvo
+    "module": "commonjs",              // Define o sistema de módulos
+    "esModuleInterop": true,           // Habilita a interoperabilidade com módulos CommonJS
+    "allowSyntheticDefaultImports": true, // Permite importações padrão sintéticas
+    "strict": true,                    // Ativa todas as verificações estritas
+    "skipLibCheck": true,              // Ignora verificações de tipos em arquivos de declaração (.d.ts)
+    "forceConsistentCasingInFileNames": true, // Garante que os nomes dos arquivos sejam consistentes
+    "outDir": "./dist",                // Diretório de saída para arquivos compilados
+    "rootDir": "./src"                 // Diretório raiz para os arquivos de entrada
+  },
+  "include": ["src/**/*.ts"],          // Inclui todos os arquivos .ts no diretório src
+  "exclude": ["node_modules"]          // Exclui a pasta node_modules
+}
